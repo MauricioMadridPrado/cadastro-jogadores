@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <title>Document</title>
+  </head>
+
+  <body class="container">
+    <header>
+      <h1>Cadastro</h1>
+    </header>
+    <main>
+      <section>
+        <div>
+          <ul>
+            <p>
+              <button class="btn-1" id="btn-1">+</button>Cadastre seu jogador
+            </p>
+          </ul>
+        </div>
+
+        <div class="local" id="local">
+
+          <!-- Local onde vao ir os dados dos jogadores -->
+           
+        </div>
+
+
+
+      <div id="modal" class="modal">
+
+        <div class="modal__botao">
+          <button id="botao__fecha" class="botao__fecha__modal">X</button>
+        </div>
+        <div>
+          <ul class="modal__lista">
+            <div class="modal__inputs">
+              <li>
+                <label for="nome">Nome?</label>
+                <input id="nome" type="text" name="nome" />
+              </li>
+              <li>
+                <label for="idade">Idade?</label>
+                <input id="idade" type="text" name="idade" />
+              </li>
+              <li>
+                <label for="posicao">Posição que joga</label>
+                <select name="posicao" id="posicao">
+                  <option value="goleiro">Goleiro</option>
+                  <option value="zagueiro">Zagueiro</option>
+                  <option value="Meio campo">Meio campo</option>
+                  <option value="Atacante">Atacante</option>
+                </select>
+              </li>
+              <button class="btn__cadastrar" id="btn-2">Cadastrar</button>
+          </div>
+        </ul>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>

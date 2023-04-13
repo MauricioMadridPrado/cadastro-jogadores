@@ -1,0 +1,70 @@
+@import url("./modal.css");
+
+body {
+  margin-top: 10%;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn-1,
+.botao__fecha {
+  background: rgb(7, 255, 7);
+  margin-right: 10px;
+  padding: 0.5em 1em;
+  font-size: 1rem;
+  font-weight: 900;
+  border: 2px solid black;
+}
+.btn-1:hover {
+  cursor: pointer;
+}
+.botao__fecha {
+  background: red;
+  position: relative;
+  top: 1;
+  right: 0;
+}
+.botao__fecha:hover {
+  cursor: pointer;
+}
+
+
+.local {
+}
+.local__lista {
+  list-style: none;
+  gap: 0.75em;
+  border: 1px solid black;
+  background: wheat;
+  font-weight: 700;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+
+.local__lista li {
+  margin: 10px 0;
+}
+.local__inputs {
+
+}
+.container__botao__card {
+  grid-column: 2/3;
+}
+.botao__apaga__jogador {
+  margin-top: 10px;
+  font-size: 1.5rem;
+  border: none;
+  background: red;
+}
+.botao__apaga__jogador:hover {
+  cursor: pointer;
+}
+.ativa {
+  display: grid;
+}
